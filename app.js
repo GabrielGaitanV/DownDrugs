@@ -7,7 +7,7 @@ const express = require('express');
 const app = express();//Declaramos app que es la variable que usara express
 
 //puerto donde se situara el local
-const port = 3007;
+const port = process.env.PORT || 3007;
 
 //Requerimiento de la ruta
 const indexRouter = require('./routes/indexRouter.js');
