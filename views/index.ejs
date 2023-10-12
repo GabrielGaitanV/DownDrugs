@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('./partials/head',{url:"/css/index.css"}) %>
+<script type='text/javascript' src='/js/carrousel.js'></script>
+<body>
+    <%- include('./partials/header') %>
+        <main>
+            <div class="lds-dual-ring loader" id="loader"></div> 
+            <div>
+                <h1 id="Conocenos" class="tituloM">¿Quienes somos?</h1>
+                <h4 class="texto">DownDrugs es una marca, que busca que tanto la produccion y venta de estupefacientes reduscan en los barrios de Bogota y Colombia, trayendo mas seguridad y estabilidad en el pais</h4>
+            </div>
+            <h2  class="tituloMS">Mision</h2>
+            <div class="contenedor">
+                <h4 class="textoMS">Lograr que los indices de microtrafico y de drogadiccion en el pais disminuyan, creando un movimiento donde con ayuda de las fuerzas armadas esta problematica sea totalmente erradicada</h4>
+                <img class="prohibido" src="/images/no.png" alt="">
+            </div>
+            <h2  class="tituloMV">Vision</h2>
+            <div class="contenedor">
+                <img class="prohibido2" src="/images/no2.png" alt="">
+                <h4 class="textoMV">Aumentar el alcance de la marca para el año 2024 y gracias a esto contar con un aplicacion mobile esto lograria un aumento de la gente informada y haria que la marca se expanda cada vez más </h4>
+            </div>
+            <div class="contenedorT">
+                <h2 id="Drogas" >¿Que son las drogas?</h2>
+                <h2>¿Que es el microtrafico?</h2>
+            </div>
+            <div class="contenedorTX">
+                <p class="definiciones">Se le conoce como droga a cualquier tipo de sustancia quimica que a la hora de consumirse provoca en la pesona un cambio psicologico u fisico en algunos casos</p>
+                <p class="definiciones">El microtrafico son las actividades que hacen posible la distribucion y comercializacion de drogas en los mercados locales u barrios y estas actividades siendo controladas por pandillas</p>
+            </div>
+            <h2 class="tituloM">Drogas mas comunes del microtrafico</h2>
+            <div class="carrousel">
+                <div class="grande">
+                    <img src="/images/1.png" alt="imagen 1" class="imgc">
+                    <img src="/images/2.png" alt="imagen 2" class="imgc">
+                    <img src="/images/3.png" alt="imagen 3" class="imgc">
+                    <img src="/images/4.png" alt="imagen 4" class="imgc">
+                    <img src="/images/5.png" alt="imagen 5" class="imgc">
+                </div>
+                <ul class="puntos">
+                    <li class="punto activo"></li>
+                    <li class="punto"></li>
+                    <li class="punto"></li>
+                    <li class="punto"></li>
+                    <li class="punto"></li>
+                </ul>
+            </div>
+            <div class="contenedorT">
+                <h2>Marihuana</h2>
+                <h2>Cocaina</h2>
+                <h2>Tusi</h2>
+            </div>
+            <div class="contenedorTX">
+                <p class="definiciones">Droga obtenida de una mezcla entre hojas, flores de cañamo indico, junto a sustancias aromaticas y azucaradas, esta droga produce sensaciones alucinogenas creando una dependencia a esta</p>
+                <p class="definiciones">Sustancia extraida de las hojas de coca, la cual se somete a tratamientos quimicos, esta se presenta como un polvo blanco que cual se inhana siendo bastante toxica y adictiva</p>
+                <p class="definiciones">La llamada cocaina rosada siendo una mezcla de ketamina, estimulantes como la cafenia y edulcorantes que son las que le dan su color, como la cocaina esta se inhala y es bastante adictiva</p>
+            </div>
+            <div class="contenedorT">
+                <h2>Heroína</h2>
+                <h2>Extasis</h2>
+            </div>
+            <div class="contenedorTX">
+                <p class="definiciones">Esta droga se procesa atravez de la morfina una sustancia que se forma naturalmente, se comercializa como un polvo blanco, es sumamente adictiva al primer consumo tanto inhalada como fumada</p>
+                <p class="definiciones">Droga originalmente creada para fines medicos, hoy en dia es un estimulante que causa alucionaciones en quien la consuma tanto en forma de pasta o polvo </p>
+            </div>
+            <div>
+                <h1 id='Ayuda' class="tituloM">¿Como podemos ayudar?</h1>
+                <h4 class="texto">Puedes denunciar cualquier actividad de microtrafico a la policia nacional con la linia unica de atencion de emergias 123, o tambien por el sistema nacinal de denuncia virtual <a class="link" href="https://www.policia.gov.co/denuncia-virtual">Dando click aqui</a></h4>
+                <h4 class="texto">Si prefieres hacer la denuncia de forma presencial puedes hacerlo en el comando de atencion inmedita (CAI) de tu barrio de resicidencia, haciendo esto puedes lograr un gran cambio en tu barrio, localidad, cuidad y pais.</h4>
+            </div>
+            <br><br>
+        </main>
+        <script type='text/javascript' src='/js/loader.js'></script>
+    <%- include('./partials/footer') %>
+</body>
+
+</html>
